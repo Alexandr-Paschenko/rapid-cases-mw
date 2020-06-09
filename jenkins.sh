@@ -14,8 +14,8 @@ npm install
 echo ""
 
 #gulp
-cp -R $PWD/src $PWD/build
 #echo ""
+cp -R $PWD/src $PWD/build
 
 echo "Stopping the $INSTANCE"
 sudo /etc/init.d/$INSTANCE stop
